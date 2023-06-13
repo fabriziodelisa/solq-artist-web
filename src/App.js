@@ -1,11 +1,12 @@
-import './App.css';
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Sidebar from "./Components/Sidebar";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Estoy andando</h1>
-    </div>
+    <>
+      <Sidebar />
+    </>
   );
 }
-
 export default App;
