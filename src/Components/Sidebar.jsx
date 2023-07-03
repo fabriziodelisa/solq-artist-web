@@ -6,7 +6,7 @@ const Sidebar = () => {
       <ui class="mainMenu">
         <li class="item" id="account">
           <a href="#account" class="btn">
-            <i class="fas fa-user-circle"></i>PROYECTOS
+            <i>PROYECTOS</i>
           </a>
           <div class="subMenu">
             <a href="">El mundo de la fantasía, patrimonio de la humanidad</a>
@@ -16,17 +16,17 @@ const Sidebar = () => {
         </li>
         <li class="item" id="about">
           <a href="#about" class="btn">
-            <i class="fas fa-address-card"></i>BIO
+            <i>BIO</i>
           </a>
         </li>
         <li class="item" id="support">
           <a href="#support" class="btn">
-            <i class="fas fa-info"></i>STATEMENT
+            <i>STATEMENT</i>
           </a>
         </li>
         <li class="item">
           <a href="#" class="btn">
-            <i class="fas fa-sign-out-alt"></i>CONTACTO
+            <i>CONTACTO</i>
           </a>
         </li>
       </ui>
