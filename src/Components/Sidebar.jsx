@@ -2,35 +2,35 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <div class="wrapper">
-      <ui class="mainMenu">
-        <li class="item" id="account">
-          <a href="#account" class="btn">
+    <nav class="wrapper">
+      <div class="mainMenu">
+        <li class="item" id="proyectos">
+          <a href="#proyectos" class="btn">
             <i>PROYECTOS</i>
           </a>
           <div class="subMenu">
-            <a href="">El mundo de la fantasía, patrimonio de la humanidad</a>
-            <a href="">Algunas lineas no existen</a>
-            <a href="">Todo lo que tu recuerdo me trajo</a>
+            <a href="fantasia">El mundo de la fantasía, patrimonio de la humanidad</a>
+            <a href="#lineas">Algunas lineas no existen</a>
+            <a href="#tu-recuerdo">Todo lo que tu recuerdo me trajo</a>
           </div>
         </li>
-        <li class="item" id="about">
-          <a href="#about" class="btn">
+        <li class="item" id="bio">
+          <a href="bio" class="btn">
             <i>BIO</i>
           </a>
         </li>
-        <li class="item" id="support">
-          <a href="#support" class="btn">
+        <li class="item" id="statement">
+          <a href="#statement" class="btn">
             <i>STATEMENT</i>
           </a>
         </li>
         <li class="item">
-          <a href="#" class="btn">
+          <a href="#contacto" class="btn">
             <i>CONTACTO</i>
           </a>
         </li>
-      </ui>
-    </div>
+      </div>
+    </nav>
   );
 };
 

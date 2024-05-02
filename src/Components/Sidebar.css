@@ -1,13 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
   list-style: none;
-  text-decoration: none;
 }
+
 .wrapper {
-  position: relative;
-  top: 40%;
-  left: 1%;
+  position:static;
+  margin-top: 10em;
   transform: translate(none, -50%);
 }
 .mainMenu {
@@ -47,7 +44,6 @@
   padding: 7px 25px;
   color: black;
   font-size: 14px;
-  /* border-bottom: 1px solid #9a9a9d; */
   position: relative;
   text-decoration: none;
 }
@@ -55,9 +51,6 @@
 .subMenu a:hover {
   color: rgb(207, 133, 207);
 }
-/* .subMenu a:last-child{
-    border:none;
-} */
 .item:target .subMenu {
   max-height: 80em;
 }
