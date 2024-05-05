@@ -2,14 +2,13 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import Sidebar from '../Components/Sidebar';
 import Button from 'react-bootstrap/Button';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Home.css";
 import "./Bio.css";
 
 const Bio = () => {
     const handleDownloadPDF = () => {
-        const filePath = 'src/Multimedia/EsaConviccion/CVSolQuirincich.pdf';
+        const filePath = process.env.PUBLIC_URL + '/CVSolQuirincich.pdf';
         const fileName = 'cvSolQuirincich.pdf';
       
         const link = document.createElement('a');
@@ -44,7 +43,7 @@ const Bio = () => {
                     </div>
                     <div>
                     <br/>
-                    <Button type="button" class="botonDescarga" onClick={handleDownloadPDF}>Descargar CV Ampliado</Button>
+                    <Button variant="secondary" type="button" class="botonDescarga" onClick={handleDownloadPDF}>Descargar CV Ampliado</Button>
                     {/* <a href="src\Multimedia\EsaConviccion\CVSolQuirincich.pdf" download="cvSolQuirincich.pdf">Descargar CV ampliado</a> */}
                     </div>
                     <Footer/>

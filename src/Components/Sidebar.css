@@ -23,7 +23,6 @@
   display: block;
   background-color: white;
   color: black;
-  position: relative;
   text-decoration: none;
 }
 
@@ -32,8 +31,7 @@
 }
 .subMenu {
   width: 15em;
-  transition: max-height 0.7s;
-  max-height: 0;
+  max-height: none;
   text-align: justify;
 }
 .subMenu a {
@@ -41,10 +39,7 @@
   padding: 7px 25px;
   color: black;
   font-size: 14px;
+  font-weight: 300;
   position: relative;
   text-decoration: none;
-}
-
-.subMenu.open {
-  max-height: none;
 }

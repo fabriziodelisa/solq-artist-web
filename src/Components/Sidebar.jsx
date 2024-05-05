@@ -1,33 +1,16 @@
-import { useRef, useState } from "react";
 import "./Sidebar.css";
 
 
 const Sidebar = () => {
 
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const subMenuRef = useRef(null);
-
-  const handleMouseEnter = () => {
-    setIsMenuOpen(true);
-  };
-
-  const handleMouseLeave = (e) => {
-    if (subMenuRef.current && !subMenuRef.current.contains(e.relatedTarget)) {
-      setIsMenuOpen(false);
-    }
-  };
   return (
     <nav class="wrapper">
       <div class="mainMenu">
         <li class="item" id="proyectos">
-        <a href="proyectos" className="btn" onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}>
+        <a href="conviccion" id="proyectos" className="btn">
             <i>PROYECTOS</i>
           </a>
-          <div
-            ref={subMenuRef}
-            className={`subMenu ${isMenuOpen ? "open" : ""}`}
-          >
+          <div className="subMenu">
             <a href="conviccion">Esa Convicción Interior, Invencible</a>
             {/* <a href="#lineas">Algunas lineas no existen</a>
             <a href="#tu-recuerdo">Todo lo que tu recuerdo me trajo</a> */}
