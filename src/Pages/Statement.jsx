@@ -1,22 +1,17 @@
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
-import Sidebar from '../Components/Sidebar';
+// import Header from "../Components/Header";
+// import Footer from "../Components/Footer";
+// import Sidebar from '../Components/Sidebar';
+import Carrousel from '../Components/Carrousel';
 import "./Home.css";
 
 const Statement = () => {
     return (
         <div>
             <div className='principal'>
-                <div className='sidebar'>
-                <Sidebar />
-                </div>
-                <div className="content">
-                    <Header/>
-                    <Footer/>
-                </div>
+                <Carrousel/>
             </div>
         </div>
-    )
+        )
 };
 
 export default Statement;
