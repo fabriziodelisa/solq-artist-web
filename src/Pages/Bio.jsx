@@ -1,5 +1,4 @@
 import Header from "../Components/Header";
-import Footer from "../Components/Footer";
 import Sidebar from '../Components/Sidebar';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -44,9 +43,7 @@ const Bio = () => {
                     <div>
                     <br/>
                     <Button variant="secondary" type="button" class="botonDescarga" onClick={handleDownloadPDF}>Descargar CV Ampliado</Button>
-                    {/* <a href="src\Multimedia\EsaConviccion\CVSolQuirincich.pdf" download="cvSolQuirincich.pdf">Descargar CV ampliado</a> */}
                     </div>
-                    <Footer/>
                 </div>
             </div>
         </div>

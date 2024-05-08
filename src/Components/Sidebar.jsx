@@ -12,8 +12,8 @@ const Sidebar = () => {
           </a>
           <div className="subMenu">
             <a href="conviccion">Esa Convicción Interior, Invencible</a>
-            {/* <a href="#lineas">Algunas lineas no existen</a>
-            <a href="#tu-recuerdo">Todo lo que tu recuerdo me trajo</a> */}
+            {/* {/* <a href="#lineas">Algunas lineas no existen</a> */}
+            <a href="artista-interior">Artista del Interior</a>
           </div>
         </li>
         <li class="item" id="bio">
@@ -21,11 +21,6 @@ const Sidebar = () => {
             <i>BIO</i>
           </a>
         </li>
-        {/* <li class="item" id="statement">
-          <a href="statement" class="btn">
-            <i>STATEMENT</i>
-          </a>
-        </li> */}
         <li class="item">
           <a href="contacto" class="btn">
             <i>CONTACTO</i>
