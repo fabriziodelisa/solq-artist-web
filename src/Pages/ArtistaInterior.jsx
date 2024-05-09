@@ -4,6 +4,7 @@ import Sidebar from '../Components/Sidebar';
 import "./Home.css";
 
 const ArtistaInterior = () => {
+    const titulo = "Artista del Interior";
     const baseUrl = process.env.PUBLIC_URL + "/Multimedia/ArtistaInterior";
     const urlImagenes = [
         `${baseUrl}/munar3.jpg`,
@@ -18,7 +19,7 @@ const ArtistaInterior = () => {
           <div className="content">
             <Header/>
             <div classname = "carrousel">
-            <Carrousel urlImagenes={urlImagenes}/>
+            <Carrousel urlImagenes={urlImagenes} titulo={titulo}/>
             </div>
             <p>Escudo repujado sobre lámina de cobre</p>
             <p>Reversión del Escudo Municipal de la ciudad de Rosario creado por el artista Julio Vanzo</p>

@@ -61,7 +61,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Carrousel.css";
 
-function Carrousel({urlImagenes}) {
+function Carrousel({urlImagenes, titulo}) {
   var settings = {
     dots: true,
     infinite: true,
@@ -76,7 +76,7 @@ function Carrousel({urlImagenes}) {
     <div className="carousel">
       <div className="slider-container">
         <h3>
-          <u>Esa convicción interior, invencible</u>
+          <u>{titulo}</u>
         </h3>
         <br />
         <Slider {...settings}>

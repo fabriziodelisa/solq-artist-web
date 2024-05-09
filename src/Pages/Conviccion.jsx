@@ -4,6 +4,7 @@ import Sidebar from '../Components/Sidebar';
 import "./Home.css";
 
 const Conviccion = () => {
+  const titulo = "Esa convicción interior, invencible";
   const baseUrl = process.env.PUBLIC_URL + "/Multimedia/EsaConviccion";
   const urlImagenes = [
     `${baseUrl}/corazon.jpg`,
@@ -22,7 +23,7 @@ const Conviccion = () => {
           <div className="content">
             <Header/>
             <div classname = "carrousel">
-            <Carrousel urlImagenes={urlImagenes}/>
+            <Carrousel urlImagenes={urlImagenes} titulo={titulo}/>
           </div>
             <p>Desde el año 2000 la plazoleta que rodea al Museo Castagnino lleva el nombre de Emilia Bertolé. 
               Es un espacio lleno de árboles, césped y sol. El cartel que indicaba su nombre ya no está. Brea y Pan me invitaron a pensar en ella, 
