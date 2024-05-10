@@ -1,10 +1,17 @@
+import Carrousel from "../Components/Carrousel";
 import Header from "../Components/Header";
 import Sidebar from '../Components/Sidebar';
 
 import "./Home.css";
 
 const Home = () => {
-  const url = process.env.PUBLIC_URL + "/Multimedia/cover-proyecto.jpg";
+  const baseUrl = process.env.PUBLIC_URL + "/Multimedia";
+  const titulo = "Proyectos";
+  const urlImagenes = [
+    `${baseUrl}/cover-proyecto.jpg`,
+    `${baseUrl}/cover-proyecto.jpg`,
+  ];
+
   return (
     <div className='principal'>
       <div className='sidebar'>
@@ -13,7 +20,7 @@ const Home = () => {
       <div className="content">
         <Header/>
         <div classname = "carrousel">
-          <img href={url} alt='cover'/>
+          <Carrousel urlImagenes={urlImagenes} titulo = {titulo} />
         </div>
       </div>
     </div>
