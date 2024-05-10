@@ -7,9 +7,11 @@ const TuRecuerdo = () => {
     const titulo = "Todo lo que tu recuerdo me trajo";
     const baseUrl = process.env.PUBLIC_URL + "/Multimedia/TuRecuerdo";
     const urlImagenes = [
-        `${baseUrl}/tu-recuerdo-1.jpg`,
+      `${baseUrl}/tu-recuerdo-1.jpg`,
       `${baseUrl}/tu-recuerdo-2.jpg`,
-    //   `${baseUrl}/munar2.jpg`,
+      `${baseUrl}/tu-recuerdo-3.jpg`,
+      `${baseUrl}/tu-recuerdo-4.jpg`,
+      `${baseUrl}/tu-recuerdo-5.jpg`,
     ];
     return(
         <div className='principal'>

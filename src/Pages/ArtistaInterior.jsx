@@ -7,9 +7,9 @@ const ArtistaInterior = () => {
     const titulo = "Artista del Interior";
     const baseUrl = process.env.PUBLIC_URL + "/Multimedia/ArtistaInterior";
     const urlImagenes = [
-        `${baseUrl}/munar3.jpg`,
-      `${baseUrl}/munar.jpg`,
+      `${baseUrl}/munar1.jpg`,
       `${baseUrl}/munar2.jpg`,
+      `${baseUrl}/munar3.jpg`,
     ];
     return(
         <div className='principal'>

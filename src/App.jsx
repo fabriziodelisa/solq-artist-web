@@ -20,7 +20,7 @@ const App = () => {
               <Route path="/tu-recuerdo" element={<TuRecuerdo/>}/>
               <Route path="/biografia" element={<Bio />} />
               <Route path="/contacto" element={<Contacto />} />
-              <Route path="*" element={<Conviccion />} />
+              <Route path="*" element={<Home />} />
             </Routes>
       </div>
     </BrowserRouter>

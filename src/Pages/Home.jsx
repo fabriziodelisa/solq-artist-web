@@ -1,9 +1,10 @@
-import Carrousel from '../Components/Carrousel';
 import Header from "../Components/Header";
-import Footer from "../Components/Footer";
 import Sidebar from '../Components/Sidebar';
+
 import "./Home.css";
+
 const Home = () => {
+  const url = process.env.PUBLIC_URL + "/Multimedia/cover-proyecto.jpg";
   return (
     <div className='principal'>
       <div className='sidebar'>
@@ -12,10 +13,8 @@ const Home = () => {
       <div className="content">
         <Header/>
         <div classname = "carrousel">
-          <Carrousel/>
+          <img href={url} alt='cover'/>
         </div>
-        <p>texto obra</p>
-        <Footer/>
       </div>
     </div>
   );

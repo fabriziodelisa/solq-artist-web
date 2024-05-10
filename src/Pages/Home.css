@@ -17,6 +17,10 @@
     max-width: 850px;
 }
 
+.content p{
+    font-size: medium;
+}
+
 .carrousel{
     width: 500px;
 }
