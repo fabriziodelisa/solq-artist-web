@@ -28,18 +28,20 @@ const MundoFantasiaRosaGalisteo = () =>
             <div classname = "carrousel">
             <Carrousel urlImagenes={urlImagenes} titulo={titulo}/>
             </div>
-            <p>Esta obra es una intervención que consta de 11 piezas que dialogan con la colección del  Museo Provincial Rosa Galisteo: 
-                obras de Manuel Musto, Augusto Schiavoni, Emilia Bertolé, Mele Bruniard, Juan Grela, Sor Josefa D. y Clucellas, 
-                Luis Ouvrard y Fernanda Aquere. Piezas pequeñas en un museo tomado inabarcable se dispersan por la  planta alta y baja. Como en un juego, 
-                las piezas pueden tomarnos por sorpresa y develarnos  algún secreto susurrado. Aparece la firma de Josefa Díaz y Clucellas sobre unas piedras, 
-                una  frase que Berni le dijo en una carta a Ouvrard, los pinceles de Musto en la mirada de  Schiavoni, las manos de Emilia Bertolé. 
-            </p>
-            <p>
-            La mayoría de las piezas fueron producidas a partir del trabajo de investigación realizado durante la residencia 
-            “Curadora” en San José del Rincón durante Septiembre del 2022.
-            </p>
-            <br/>
-            <p>Fotos: Rodrigo Stettler</p>
+            <div className="texto">
+                <p>Esta obra es una intervención que consta de 11 piezas que dialogan con la colección del  Museo Provincial Rosa Galisteo: 
+                    obras de Manuel Musto, Augusto Schiavoni, Emilia Bertolé, Mele Bruniard, Juan Grela, Sor Josefa D. y Clucellas, 
+                    Luis Ouvrard y Fernanda Aquere. Piezas pequeñas en un museo tomado inabarcable se dispersan por la  planta alta y baja. Como en un juego, 
+                    las piezas pueden tomarnos por sorpresa y develarnos  algún secreto susurrado. Aparece la firma de Josefa Díaz y Clucellas sobre unas piedras, 
+                    una  frase que Berni le dijo en una carta a Ouvrard, los pinceles de Musto en la mirada de  Schiavoni, las manos de Emilia Bertolé. 
+                </p>
+                <p>
+                La mayoría de las piezas fueron producidas a partir del trabajo de investigación realizado durante la residencia 
+                “Curadora” en San José del Rincón durante Septiembre del 2022.
+                </p>
+                <br/>
+            </div>
+            <p className="pie-foto">Fotos: Rodrigo Stettler</p>
             </div>
         </div>
     )

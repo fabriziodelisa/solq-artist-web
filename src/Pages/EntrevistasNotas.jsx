@@ -6,10 +6,10 @@ import "./Home.css";
 
 const Entrevistas = () => {
     const titulo = "Entrevistas | Notas"
-    const baseUrl = process.env.PUBLIC_URL + "/Multimedia";
+    const baseUrl = process.env.PUBLIC_URL + "/Multimedia/EsaConviccion";
     const urlImagenes = [
-      `${baseUrl}/cover-proyecto.jpg`,
-      `${baseUrl}/cover-proyecto.jpg`,
+      `${baseUrl}/flecha.jpg`,
+      `${baseUrl}/corazon.jpg`,
     ];
 
     return(

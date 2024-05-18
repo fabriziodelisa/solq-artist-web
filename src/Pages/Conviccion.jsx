@@ -25,6 +25,17 @@ const Conviccion = () => {
             <div classname = "carrousel">
             <Carrousel urlImagenes={urlImagenes} titulo={titulo}/>
           </div>
+          <div className= "pie-foto" id='pie-foto'>
+          <p>
+            Esa convicción interior, invencible <br/>
+            Intervención compuesta por 32 piezas de hierro pavonado amuradas a la pared<br/>
+            Medidas variables<br/>
+            2023<br/>
+            Colección Museo Castagninomacro
+          </p>
+          <br/>
+          </div>
+          <div className='texto'>
             <p>Desde el año 2000 la plazoleta que rodea al Museo Castagnino lleva el nombre de Emilia Bertolé. 
               Es un espacio lleno de árboles, césped y sol. El cartel que indicaba su nombre ya no está. Brea y Pan me invitaron a pensar en ella, 
               en ese espacio y en la idea de un museo ampliado.
@@ -51,6 +62,7 @@ const Conviccion = () => {
             <p>emilia, ey! en la pared</p>
             <p>bien grande!</p>
             <p>vení</p>
+          </div>
           </div>
         </div>
       );

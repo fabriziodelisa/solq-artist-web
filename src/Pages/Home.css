@@ -16,10 +16,15 @@
     width: 70%;
     max-width: 850px;
     padding-bottom: 70px;
+    overflow: hidden;
 }
 
 .content p{
-    font-size: medium;
+    font-size:small;
+}
+
+.pie-foto p{
+    font-size: x-small ;
 }
 
 .carrousel{
@@ -29,4 +34,9 @@
 .imagen{
     width: 100%;
     max-width: 700px;
+}
+
+.content img{
+    max-width: 100%;
+    height: auto;
 }

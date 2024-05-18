@@ -1,6 +1,5 @@
 import Header from "../Components/Header";
 import Sidebar from '../Components/Sidebar';
-// import Button from 'react-bootstrap/Button';
 import MyPdfViewer from "../Components/PdfRender";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,18 +7,8 @@ import "./Home.css";
 import "./Bio.css";
 
 const Bio = () => {
-    // const handleDownloadPDF = () => {
-    //     const filePath = process.env.PUBLIC_URL + '/CVSolQuirincich.pdf';
-    //     const fileName = 'cvSolQuirincich.pdf';        
-      
-    //     const link = document.createElement('a');
-    //     link.href = filePath;
-    //     link.download = fileName;
-    //     document.body.appendChild(link);
-    //     link.click();
-    //     document.body.removeChild(link);
-    //   };
     const filePath = process.env.PUBLIC_URL + '/CVSolQuirincich.pdf';
+
     return(
         <div>
             <div className='principal'>
@@ -45,7 +34,6 @@ const Bio = () => {
                     <div>
                     <br/>
                     <br/>
-                    {/* <Button variant="secondary" type="button" class="botonDescarga" onClick={handleDownloadPDF}>Descargar CV Ampliado</Button> */}
                     <MyPdfViewer urlPdf={filePath}/>
                     </div>
                 </div>

@@ -36,17 +36,21 @@ const MundoFantasia = () => {
             <div classname = "carrousel">
             <Carrousel urlImagenes={urlImagenes} titulo={titulo}/>
             </div>
-            <p>SIN TÍTULO, de la serie Artista del interior</p>
-            <p>Instalación (7 piezas repujadas en lámina de cobre sobre fragmento de color)</p>
-            <p>110 x 150 cm</p>
-            <p>2021</p>
-            <br/>
-            <p>Estas piezas son parte de una serie de emblemas que buscan reconocer 
-                mi territorio, celebrar a sus artistas creando una escudería blanda, sensible. 
-                Imagino una historia del arte compuesta de pequeños gestos. 
-                En lo próximo encuentro una tibieza que me mantiene viva, un calor que necesito.
-            </p>
-            <br/>
+            <div className="pie-foto">
+              <p>SIN TÍTULO, de la serie Artista del interior<br/>
+                Instalación (7 piezas repujadas en lámina de cobre sobre fragmento de color)<br/>
+                110 x 150 cm<br/>
+                2021</p>
+              <br/>
+            </div>
+            <div className="texto">
+              <p>Estas piezas son parte de una serie de emblemas que buscan reconocer 
+                  mi territorio, celebrar a sus artistas creando una escudería blanda, sensible. 
+                  Imagino una historia del arte compuesta de pequeños gestos. 
+                  En lo próximo encuentro una tibieza que me mantiene viva, un calor que necesito.
+              </p>
+              <br/>
+            </div>
             <Button variant="warning" type="button" class="botonDescarga" onClick={handleClick}>ROSA GALISTEO</Button>
             <br/>
             <MyPdfViewer urlPdf={urlPdf}/>
