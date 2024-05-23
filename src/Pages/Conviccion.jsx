@@ -7,12 +7,12 @@ const Conviccion = () => {
   const titulo = "Esa convicción interior, invencible";
   const baseUrl = process.env.PUBLIC_URL + "/Multimedia/EsaConviccion";
   const urlImagenes = [
-    `${baseUrl}/corazon.jpg`,
     `${baseUrl}/entero.jpg`,
-    `${baseUrl}/entero2.jpg`,
+    `${baseUrl}/corazon.jpg`,
     `${baseUrl}/interior.jpg`,
-    `${baseUrl}/castagnino1.jpeg`,
+    `${baseUrl}/entero2.jpg`,
     `${baseUrl}/castagnino2.jpeg`,
+    `${baseUrl}/castagnino1.jpeg`,
   ];
 
     return (
