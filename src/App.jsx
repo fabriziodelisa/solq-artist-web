@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Contacto from "./Pages/Contacto";
 import Conviccion from "./Pages/Conviccion";
@@ -16,7 +16,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
             <Routes>
               <Route path="/home" element={<Home />} />
@@ -33,7 +33,7 @@ const App = () => {
               <Route path="*" element={<Home />} />
             </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 export default App;
