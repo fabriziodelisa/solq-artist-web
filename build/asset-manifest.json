@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/solq-artist-web/static/css/main.eb4e377e.css",
+    "main.js": "/solq-artist-web/static/js/main.55219ac2.js",
+    "static/media/slick.svg": "/solq-artist-web/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/solq-artist-web/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/solq-artist-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/solq-artist-web/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/solq-artist-web/index.html",
+    "main.eb4e377e.css.map": "/solq-artist-web/static/css/main.eb4e377e.css.map",
+    "main.55219ac2.js.map": "/solq-artist-web/static/js/main.55219ac2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb4e377e.css",
+    "static/js/main.55219ac2.js"
+  ]
+}
