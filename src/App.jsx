@@ -19,17 +19,17 @@ const App = () => {
     <BrowserRouter>
       <div className="app">
             <Routes>
-              <Route path="/home" element={<Home />} />
-              <Route path="/conviccion" element={<Conviccion />} />
               <Route path="/artista-interior" element={<ArtistaInterior/>}/>
-              <Route path="/tu-recuerdo" element={<TuRecuerdo/>}/>
-              <Route path="/mundo-fantasia" element={<MundoFantasia/>}/>
-              <Route path="/mundo-fantasia-rosa-galisteo" element={<MundoFantasiaRosaGalisteo/>}/>
-              <Route path="/mundo-fantasia-curadora" element={<MundoFantasiaCuradora/>}/>
-              <Route path="/entrevistas-notas" element={<Entrevistas />} />
-              <Route path="/talleres" element={<Talleres />} />
               <Route path="/biografia" element={<Bio />} />
               <Route path="/contacto" element={<Contacto />} />
+              <Route path="/conviccion" element={<Conviccion />} />
+              <Route path="/entrevistas-notas" element={<Entrevistas />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/mundo-fantasia" element={<MundoFantasia/>}/>
+              <Route path="/mundo-fantasia-curadora" element={<MundoFantasiaCuradora/>}/>
+              <Route path="/mundo-fantasia-rosa-galisteo" element={<MundoFantasiaRosaGalisteo/>}/>
+              <Route path="/talleres" element={<Talleres />} />
+              <Route path="/tu-recuerdo" element={<TuRecuerdo/>}/>
               <Route path="*" element={<Home />} />
             </Routes>
       </div>

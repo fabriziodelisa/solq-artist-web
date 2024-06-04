@@ -16,9 +16,7 @@ const Talleres = () => {
           <Header/>
           <h2><u>Talleres | Workshops</u></h2>
           <br/>
-          <h4>ANÁLISIS Y SEGUIMIENTO DE OBRAS Y PROYECTOS</h4>
-          <br/>
-          <img src={seguimiento} alt="seguimiento de obras y proyectos" />
+          <img src={seguimiento} alt="seguimiento de obras y proyectos" style={{ width: '500px' }} />
           <br/>
           <h6>INDIVIDUAL</h6>
           <br/>
@@ -37,12 +35,8 @@ const Talleres = () => {
           <br/>
           <p>Consultas: solquirincich@gmail.com </p>
           <br/>
-          <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-          </p>
           <br/>
-          <h4>TALLER DE ANÁLISIS DE PROCESOS ARTÍSTICOS POR SOL QUIRINCICH Y JULIA LEVSTEIN</h4>
-          <br/>
-          <img src={sobremesa} alt="sobremesa" />
+          <img src={sobremesa} alt="sobremesa" style={{ width: '500px' }} />
           <br/>
           <h6>Dictado durante los años 2021-22 en la Biblioteca y Archivo de arte contemporáneo América Elda Nancy (Rosario)</h6>
           <br/>

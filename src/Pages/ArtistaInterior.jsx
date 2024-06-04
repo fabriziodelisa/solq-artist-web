@@ -4,7 +4,7 @@ import Sidebar from '../Components/Sidebar';
 import "./Home.css";
 
 const ArtistaInterior = () => {
-    const titulo = "Artista del Interior";
+    const titulo = "Artista del interior";
     const baseUrl = process.env.PUBLIC_URL + "/Multimedia/ArtistaInterior";
     const urlImagenes = [
       `${baseUrl}/munar1.jpg`,

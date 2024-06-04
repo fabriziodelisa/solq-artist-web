@@ -8,7 +8,7 @@ import {useNavigate } from "react-router";
 import "./Home.css";
 
 const MundoFantasia = () => {
-    const titulo = "El mundo de la fantasía patrimonio de la humanidad";
+    const titulo = "El mundo de la fantasía, patrimonio de la humanidad";
     const baseUrl = process.env.PUBLIC_URL + "/Multimedia/MundoFantasia";
     const urlPdf = `${baseUrl}/Fe-y-Orfebreria.pdf`;
     const urlImagenes = [

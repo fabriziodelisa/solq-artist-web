@@ -11,9 +11,9 @@ const Sidebar = () => {
             <i>PROYECTOS</i>
           </a>
           <div className="subMenu">
-            <a href="conviccion">Esa Convicción Interior, Invencible</a>
-            <a href="mundo-fantasia">El mundo de la fantasía patrimonio de la humanidad</a>
-            <a href="artista-interior">Artista del Interior</a>
+            <a href="conviccion">Esa convicción interior, invencible</a>
+            <a href="mundo-fantasia">El mundo de la fantasía, patrimonio de la humanidad</a>
+            <a href="artista-interior">Artista del interior</a>
             <a href="tu-recuerdo">Todo lo que tu recuerdo me trajo</a>
           </div>
         </li>

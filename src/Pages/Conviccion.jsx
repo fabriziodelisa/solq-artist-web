@@ -31,7 +31,8 @@ const Conviccion = () => {
             Intervención compuesta por 32 piezas de hierro pavonado amuradas a la pared<br/>
             Medidas variables<br/>
             2023<br/>
-            Colección Museo Castagninomacro
+            Colección Museo Castagninomacro <br/>
+            Fotos: Juan Pablo García
           </p>
           <br/>
           </div>
