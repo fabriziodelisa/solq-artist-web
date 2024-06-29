@@ -1,5 +1,4 @@
 import Carrousel from '../Components/Carrousel';
-import Header from "../Components/Header";
 import Sidebar from '../Components/Sidebar';
 import "./Home.css";
 
@@ -21,7 +20,6 @@ const Conviccion = () => {
           <Sidebar />
           </div>
           <div className="content">
-            <Header/>
             <div classname = "carrousel">
             <Carrousel urlImagenes={urlImagenes} titulo={titulo}/>
           </div>

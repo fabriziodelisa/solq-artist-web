@@ -1,5 +1,4 @@
 import Sidebar from "../Components/Sidebar";
-import Header from "../Components/Header";
 
 import "./Home.css";
 
@@ -27,7 +26,6 @@ const Entrevistas = () => {
         <Sidebar />
       </div>
       <div className="content">
-        <Header/>
         <h2><u>Entrevistas | Notas</u></h2>
         <br/>
         <h4><u>PROXIMAMENTE</u></h4>

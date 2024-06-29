@@ -1,8 +1,6 @@
-import Header from "../Components/Header";
 import Sidebar from '../Components/Sidebar';
 import MyPdfViewer from "../Components/PdfRender";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Home.css";
 import "./Bio.css";
 
@@ -16,7 +14,6 @@ const Bio = () => {
                 <Sidebar />
                 </div>
                 <div className="content">
-                    <Header/>
                     <div>
                         <h4><u>BIO</u></h4>
                         <h4>(Villa Constitución, 1992) </h4>

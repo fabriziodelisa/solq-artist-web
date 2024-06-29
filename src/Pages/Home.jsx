@@ -1,4 +1,3 @@
-import Header from "../Components/Header";
 import Sidebar from '../Components/Sidebar';
 
 import "./Home.css";
@@ -12,7 +11,6 @@ const Home = () => {
       <Sidebar />
       </div>
       <div className="content">
-        <Header/>
         <div classname = "carrousel">
           <img src={baseUrl} alt="corazon" />
         </div>

@@ -1,4 +1,3 @@
-import Sidebar from "../Components/Sidebar";
 import Header from "../Components/Header";
 import Carrousel from "../Components/Carrousel";
 
@@ -24,7 +23,6 @@ const MundoFantasiaCuradora = () =>
     return(
         <div className='principal'>
             <div className='sidebar'>
-            <Sidebar />
             </div>
             <div className="content">
             <Header/>

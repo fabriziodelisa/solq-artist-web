@@ -1,8 +1,6 @@
 import Sidebar from "../Components/Sidebar";
-import Header from "../Components/Header";
 import Carrousel from "../Components/Carrousel";
 import MyPdfViewer from "../Components/PdfRender";
-import Button from 'react-bootstrap/Button';
 import {useNavigate } from "react-router";
 
 import "./Home.css";
@@ -32,7 +30,6 @@ const MundoFantasia = () => {
           <Sidebar />
           </div>
           <div className="content">
-            <Header/>
             <div classname = "carrousel">
             <Carrousel urlImagenes={urlImagenes} titulo={titulo}/>
             </div>
@@ -51,9 +48,10 @@ const MundoFantasia = () => {
               </p>
               <br/>
             </div>
-            <Button variant="warning" type="button" class="botonDescarga" onClick={handleClick}>ROSA GALISTEO</Button>
-            <br/>
             <MyPdfViewer urlPdf={urlPdf}/>
+            <br/>
+            <br/>
+            <button className="btn" onClick={handleClick}  style={{ fontWeight: 900 }}>INTERVENCION ROSA GALISTEO</button>
           </div>
         </div>
     )

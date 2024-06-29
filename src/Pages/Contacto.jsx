@@ -1,4 +1,3 @@
-import Header from "../Components/Header";
 import Sidebar from '../Components/Sidebar';
 import "./Contacto.css";
 import "./Home.css";
@@ -11,7 +10,6 @@ const Contacto = () => {
                 <Sidebar />
                 </div>
                 <div className="content">
-                    <Header/>
                     <div className="contacto">
                         <h4><u>CONTACTO</u></h4>
                         <br/>

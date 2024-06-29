@@ -1,5 +1,4 @@
 import Sidebar from "../Components/Sidebar";
-import Header from "../Components/Header";
 
 import "./Home.css";
 
@@ -13,7 +12,6 @@ const Talleres = () => {
           <Sidebar />
         </div>
         <div className="content">
-          <Header/>
           <h2><u>Talleres | Workshops</u></h2>
           <br/>
           <img src={seguimiento} alt="seguimiento de obras y proyectos" style={{ width: '500px' }} />

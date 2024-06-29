@@ -1,5 +1,4 @@
 import Carrousel from '../Components/Carrousel';
-import Header from "../Components/Header";
 import Sidebar from '../Components/Sidebar';
 import "./Home.css";
 
@@ -19,16 +18,17 @@ const TuRecuerdo = () => {
           <Sidebar />
           </div>
           <div className="content">
-            <Header/>
             <div classname = "carrousel">
             <Carrousel urlImagenes={urlImagenes} titulo={titulo}/>
             </div>
-            <p>Instalación mueble, alfombra y sistema</p>
-            <p>Una biblioteca se empaña de forma gradual</p>
-            <p>Medidas variables</p>
-            <p>2015</p>
-            <br/>
-            <p>LXIX Salón de Nacional Rosario. Museo Castagnino</p>
+            <div className="pie-foto">
+            <p>Instalación mueble, alfombra y sistema<br/>
+            Una biblioteca se empaña de forma gradual<br/>
+            Medidas variables<br/>
+            2015<br/>
+            LXIX Salón de Nacional Rosario. Museo Castagnino<br/>
+            Fotos: Emilia Giordano</p>
+            </div>
             <br/>
             <p>Los objetos cotidianos tienen una carga, una poética. 
                 En ellos están presentes las huellas de nuestro habitar, de nuestro ser. 
