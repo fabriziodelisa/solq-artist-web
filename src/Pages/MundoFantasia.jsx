@@ -51,7 +51,7 @@ const MundoFantasia = () => {
             <MyPdfViewer urlPdf={urlPdf}/>
             <br/>
             <br/>
-            <button className="btn" onClick={handleClick}  style={{ fontWeight: 900 }}>INTERVENCION ROSA GALISTEO</button>
+            <button className="btn" onClick={handleClick}  style={{ fontWeight: 900 }}>INTERVENCIÓN ROSA GALISTEO</button>
           </div>
         </div>
     )
